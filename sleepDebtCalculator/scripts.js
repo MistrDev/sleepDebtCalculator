@@ -10,7 +10,7 @@ const getSleepHours = day => {
     } else if (day === 'friday') {
       return 5;     
     } else if (day === 'saturday') {
-      return 10;     
+      return 11;     
     } else if (day === 'sunday') {
       return 7;     
     }
