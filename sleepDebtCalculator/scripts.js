@@ -31,7 +31,7 @@ const getSleepHours = day => {
     if (actualSleepHours === idealSleepHours){
       console.log('You got' , {actualSleepHours} ,' perfect amount of sleep.');
     } else if (actualSleepHours > idealSleepHours) {
-      console.log('You slept too much this week.')
+      console.log('You slept' , {actualSleepHours} , 'your ideal goal is' , {idealSleepHours}, 'You slept to much!')
     } else if (actualSleepHours < idealSleepHours) {
       console.log('You need some more rest.')
     }
