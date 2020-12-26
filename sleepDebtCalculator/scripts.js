@@ -1,17 +1,17 @@
 const getSleepHours = day => {
-    if (day === 'monday') {
+    if (day === 'Monday') {
       return 7; 
-    } else if (day === 'tuesday') {
+    } else if (day === 'Tuesday') {
       return 7;     
-    } else if (day === 'wednesday') {
+    } else if (day === 'Wednesday') {
       return 6;     
-    } else if (day === 'thursday') {
+    } else if (day === 'Thursday') {
       return 5;     
-    } else if (day === 'friday') {
+    } else if (day === 'Friday') {
       return 5;     
-    } else if (day === 'saturday') {
+    } else if (day === 'Saturday') {
       return 11;     
-    } else if (day === 'sunday') {
+    } else if (day === 'Sunday') {
       return 7;     
     }
       }
